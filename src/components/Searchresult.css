@@ -1,0 +1,21 @@
+.github_search_input {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 1rem 0.5rem;
+  border: none;
+  border-radius: 15px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  outline: none;
+  text-align: center;
+}
+
+.github_search_input:focus {
+  border-bottom: 2px solid #111;
+}
+
+.repo_list {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}

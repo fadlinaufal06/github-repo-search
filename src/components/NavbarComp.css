@@ -1,0 +1,83 @@
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+    background-color: #22272e;
+    justify-content: space-between;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 0.5%;
+    margin-left: auto;
+    margin-right: 0.5%;
+    height: 5%;
+    color: white;
+  }
+  
+  .navbar-left {
+    margin-left: 3.5%;
+    display: flex;
+    flex-direction: row;
+    color: inherit;
+    background-color: inherit;
+  }
+  
+  .navbar-right {
+    display: flex;
+    flex-direction: row;
+    margin-right: 3.5%;
+    margin-left: 3.5%;
+    padding-left: 10px;
+    color: whitesmoke;
+    background-color: inherit;
+  }
+  
+  .navbar-content {
+    height: 5%;
+    margin-left: 0.1%;
+    padding-left: 0%;
+    padding-right: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color: inherit;
+  }
+  .search-box {
+    background-color: black;
+    color: inherit;
+    border-color: black;
+    height: 2000%;
+    border-radius: 20px;
+  }
+  .submit-search {
+
+    height: 5%;
+    width: 5%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    padding-bottom: 0.5%;
+    margin-top: 10%;
+    margin-bottom: 2.5%;
+    color: inherit;
+    background-color: inherit;
+    width: 20px;
+    height: 20px;
+  }
+  .text-link {
+    color: inherit;
+    text-decoration: none;
+    height: 7%;
+  }
+  
+  .text-link:hover {
+    /*  color: #586069; */
+    color: grey;
+  }
+  
+  .github-icon {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .link-text{
+    color:white;
+  }
+  
+ 
