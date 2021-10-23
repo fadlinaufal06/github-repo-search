@@ -1,13 +1,6 @@
 import React from "react";
 import "./Searchresult.css";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-import { FaGithub, FaSearch } from "react-icons/fa";
-import {Navbar, NavDropdown, Form, FormControl, Button, Nav } from 'react-bootstrap'
+
 
 // https://api.github.com/search/repositories?q=html
 function Searchresult() {
@@ -65,7 +58,7 @@ function Searchresult() {
         {repos.map(repo => {
           return (
             <li key={repo.id} className="repo_item">
-              <a href={repo.html_url} target="_blank">
+              <a href={repo.html_url} target="_blank" rel="noreferrer">
                 {repo.name} By : {repo.owner.login}
               </a>
               <p>{repo.description}</p>
